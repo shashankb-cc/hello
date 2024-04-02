@@ -1,0 +1,25 @@
+{
+  "name": "node-project",
+  "version": "0.0.1",
+  "description": "Creating node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "run-prime": "nodemon ./prime.js"
+  },
+  "keywords": [
+    "tdd",
+    "js",
+    "data-structure"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "vitest": "^1.4.0"
+  }
+}
