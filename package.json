@@ -1,0 +1,41 @@
+{
+  "name": "node-project",
+  "version": "0.0.1",
+  "description": "Creating node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "run-prime": "nodemon ./prime.js",
+    "lint": "eslint ./src/**",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "tdd",
+    "js",
+    "data-structure"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^4.3.0",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
+    "@vitest/coverage-istanbul": "1.4.0",
+    "@vitest/coverage-v8": "1.4.0",
+    "eslint": "8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "globals": "^15.0.0",
+    "mkdirp": "3.0.1",
+    "nodemon": "^3.1.0",
+    "prettier": "3.2.5",
+    "vitest": "^1.4.0"
+  }
+}
